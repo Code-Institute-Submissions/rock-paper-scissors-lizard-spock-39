@@ -11,52 +11,52 @@ uName = input("Insert your name: ")
 totalGames = input("How many games would you like to play? ")
 
 while n <= int(totalGames):
-     player = input("Rock, Paper, Scissors, Lizard, Spock? ")    
-if player == bot:
+    player = input("Rock, Paper, Scissors, Lizard, Spock? ")    
+    if player == bot:
         print("Both picked", player, "It's a Tie! Plus 50 points")
         n += 1
         score += 50
-elif player == "Rock":
-    if bot == "Paper" or bot == "Spock":
+    elif player == "Rock":
+        if bot == "Paper" or bot == "Spock":
             print("You lose!", bot, "wins over", player)
             n += 1
-    else:
+        else:
             print(player, "wins over", bot, "You win!! Plus 100 points")
             n += 1
-            score += 100
-elif player == "Paper":
-    if bot == "Scissors" or bot == "Lizard":
+        score += 100
+    elif player == "Paper":
+        if bot == "Scissors" or bot == "Lizard":
             print("You lose!", bot, "wins over", player)
             n += 1
-    else:
+        else:
             print(player, "wins over", bot, "You win!! Plus 100 points")
             n += 1
             score += 100
-elif player == "Scissors":
-    if bot == "Rock" or bot == "Spock":
+    elif player == "Scissors":
+        if bot == "Rock" or bot == "Spock":
             print("You lose...", bot, "wins over", player)
             n += 1
-    else:
+        else:
             print(player, "wins over", bot, "You win!! Plus 100 points")
             n += 1
             score += 100
-elif player == "Lizard":
-    if bot == "Rock" or bot == "Scissors":
+    elif player == "Lizard":
+        if bot == "Rock" or bot == "Scissors":
             print("You lose...", bot, "wins over", player)
             n += 1
-    else:
+        else:
             print(player, "wins over", bot, "You win!! Plus 100 points")
             n += 1
             score += 100
-elif player == "Spock":
-    if bot == "Lizard" or bot == "Paper":
+    elif player == "Spock":
+        if bot == "Lizard" or bot == "Paper":
             print("You lose...", bot, "wins over", player)
             n += 1
-    else:
+        else:
             print(player, "wins over", bot, "You win!! Plus 100 points")
             n += 1
             score += 100
-else:
+    else:
         print("Check your spelling! or First letter must be uppercase!")
     
 
@@ -73,12 +73,15 @@ while totalScore > 0:
     percent = (score / totalScore) * 100  
     if percent >= 75:
         print(uName, "you won", int(percent), "percent of your games, WELL DONE!! B)")
+        break
     elif percent >= 50 and percent < 75:
         print(uName, "you won", int(percent), "percent of your games, Your almost there. :)")
+        break
     elif percent < 50 and percent >= 25:
-        print(uName, "you won", int(percent), "percent of your games, You might want to try again. :>")    
+        print(uName, "you won", int(percent), "percent of your games, You might want to try again. :>")
+        break    
     elif percent < 25 and percent >0:
-        print(uName, "you won", int(percent), "percent of your games, Go rub a Rabbit's foot :p")        
-else:
-    print("You played 0 games, try again")
-    
+        print(uName, "you won", int(percent), "percent of your games, Go rub a Rabbit's foot :p")
+        break        
+    else:
+        print("You played 0 games, try again")
