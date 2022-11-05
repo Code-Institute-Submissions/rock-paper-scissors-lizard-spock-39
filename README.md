@@ -36,8 +36,10 @@ the program will continue to run till the number of games chosen have been playe
 
 ### Fixed Bugs
 * A continuous loop had kept occurring but, was solved after adding "break"
+* While loop for the game did not work as intended at first, but was fixed after the correct indentations of the statements
 
 ## Credits
-https://www.w3schools.com/python/ref_random_randint.asp
-https://www.w3schools.com/python/python_conditions.asp
-https://www.w3schools.com/python/python_while_loops.asp
++ [W3Schools Python Random randint](https://www.w3schools.com/python/ref_random_randint.asp) was used as reference in the website
++ [W3Schools Conditions and If statements](https://www.w3schools.com/python/python_conditions.asp) was used as reference in the website
++ [W3Schools While loops](https://www.w3schools.com/python/python_while_loops.asp) was used as reference in the website
++ [W3Schools Arrays](https://www.w3schools.com/python/python_arrays.asp) was used as reference in the website
