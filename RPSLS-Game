@@ -68,11 +68,12 @@ else:
     print(uName, "your total score for", totalGames, "games is", score, "out of", totalScore)
 
 percent = (score / totalScore) * 100
+
 if percent >= 75:
-    print(uName, "you won more than 75 percent of your games, WELL DONE!! B)")
+    print(uName, "you won", int(percent), "percent of your games, WELL DONE!! B)")
 elif percent >= 50 and percent < 75:
-    print(uName, "you won more than 50 percent of your games, Your almost there. :)")
+    print(uName, "you won", int(percent), "percent of your games, Your almost there. :)")
 elif percent < 50 and percent >= 25:
-    print(uName, "you won more than 25 percent of your games, You might want to try again. :>")    
+    print(uName, "you won", int(percent), "percent of your games, You might want to try again. :>")    
 else:
-    print(uName, "you won less than 25 percent of your games, Go rub a Rabbit's foot :p")        
+    print(uName, "you won", int(percent), "percent of your games, Go rub a Rabbit's foot :p")        
