@@ -24,3 +24,6 @@ the program will continue to run till the number of games chosen have been playe
 
 ![0games](https://user-images.githubusercontent.com/20689249/200135958-509957ce-1edd-49a4-a296-78e34ba5d7a5.png)
 
+## Features Left to Implement
+* A highscores list that features the top 10 scores and the player's name
+* 
