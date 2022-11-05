@@ -22,4 +22,5 @@ the program will continue to run till the number of games chosen have been playe
 
 * If the player does happen to input 0 for the number games to play the game will end and will need to be started again
 
-![2cb99bfea9cb098cbaee2bf2041f9cc6](https://user-images.githubusercontent.com/20689249/200134988-f2310a87-dbd5-4e46-9ef2-662cb0751788.png)
+![0games](https://user-images.githubusercontent.com/20689249/200135958-509957ce-1edd-49a4-a296-78e34ba5d7a5.png)
+
