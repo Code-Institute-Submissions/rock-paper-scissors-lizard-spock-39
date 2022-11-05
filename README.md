@@ -26,4 +26,11 @@ the program will continue to run till the number of games chosen have been playe
 
 ## Features Left to Implement
 * A highscores list that features the top 10 scores and the player's name
-* 
+* Have the option to allow players input a single letter or number to represent thier choice rather than the full word
+* Have the option to allow players to input actions for multiple games at once and getting an total score at the end rather than every game.
+
+## Testing
+* Thorough testing has been conducted to ensure that the site works well. A random result for each of the player's input for each game as intended.
+* The game also takes note of the player's total score and reports it back to them as intended
+* The total number of games the player will play is the number they input duing the start of the game as intended
+
